@@ -1,0 +1,41 @@
+.back{
+    margin: auto;
+    padding: 20px;
+    background: none;
+} 
+.card{
+    transition: 0.3s;
+    display:flex;
+    justify-content:space-around;
+}
+
+.card-title{
+    text-align: center;
+    color: red;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: none;
+    background-color: #bbbb;
+    
+    
+}
+
+.card-img-bottom{
+    height: 100%;
+    width: 100%;
+}
+
+.card-group{
+   margin-top: 0px;
+   
+}
+

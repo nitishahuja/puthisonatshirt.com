@@ -1,0 +1,50 @@
+.navbar{ 
+  height: 80px !important;
+  background-color: black;
+}
+
+.navbar .topbar{
+ width: 100%;
+ position: relative;
+ margin: 0 auto;
+ overflow: hidden;
+}
+
+.navbar .topbar .primary-nav{
+  display: -webkit-flex;
+  display: flex;
+  list-style-type: none;
+  padding:0;
+  justify-content: flex-end;
+  line-height:70px;
+  color: white;
+}
+
+.navbar .topbar .primary-nav .logo{
+  margin-right: auto;
+}
+
+.navbar .topbar .primary-nav .logo:hover{
+  transform: scale(1.1);
+  transition: 350ms;
+}
+
+.fa-shopping-cart,
+.fa-user-alt{
+  color: white;
+  margin: 8px;
+}
+
+.fa-shopping-cart:hover,
+.fa-user-alt:hover{
+  color: #bbbb;
+}
+
+@media only screen and (max-width: 300px){
+  .navbar .topbar .primary-nav .logo,
+  .fa-shopping-cart,
+  .fa-user-alt
+  {
+    transform: scale(.8);
+  }
+}
