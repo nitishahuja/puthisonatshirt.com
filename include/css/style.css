@@ -72,13 +72,6 @@ text-align: center;
     color: rgb(17, 17, 192);
     text-decoration: none;
 }
-/* .bestseller .container1 h4::after{
-    content: ">";
-}
-
-.bestseller .container1 h4::before{
-    content: "<";
-} */
 
 .bestseller .owl-carouse .item .product a{
     overflow: hidden;
@@ -104,22 +97,22 @@ text-align: center;
     font-size: 12px;
 }
 
-.owl-carousel .owl-nav button{
+.bestseller .owl-carousel .owl-nav button{
     position: absolute;
     top:20%;
     outline: none;
 }
 
-.owl-carousel .owl-nav button.owl-prev{
+.bestseller .owl-carousel .owl-nav button.owl-prev{
     left: 0;
     
 }
 
-.owl-carousel .owl-nav button.owl-next{
+.bestseller .owl-carousel .owl-nav button.owl-next{
     right: 0;
 }
 
-.owl-carousel .owl-nav button.owl-prev span{
+.bestseller .owl-carousel .owl-nav button.owl-prev span{
     font-size: 35px;
     color: black;
     margin-left: -1.5rem;
@@ -128,7 +121,7 @@ text-align: center;
     transform: scale(.8);
 }
 
-.owl-carousel .owl-nav button.owl-next span{
+.bestseller .owl-carousel .owl-nav button.owl-next span{
     font-size: 35px;
     color: black;
     margin-right: -1.5rem;
@@ -137,8 +130,8 @@ text-align: center;
     transform: scale(.8);
 }
 
-.owl-carousel .owl-nav button.owl-next span:hover,
-.owl-carousel .owl-nav button.owl-prev span:hover{
+.bestseller .owl-carousel .owl-nav button.owl-next span:hover,
+.bestseller .owl-carousel .owl-nav button.owl-prev span:hover{
     transform: scale(1);
 }
 

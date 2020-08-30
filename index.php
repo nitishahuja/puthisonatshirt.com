@@ -63,7 +63,7 @@
   <div class="bestseller">
       <div class="container1">
           <h4>
-             <a href="">Best Seller</a> 
+             <a href="">Best Seller <i class="fas fa-angle-double-right"></i></a> 
           </h4>
           <hr>
          <div class="owl-carousel owl-theme">
@@ -162,7 +162,7 @@
 <div class="bestseller">
       <div class="container1">
           <h4>
-             <a href="">Latest</a> 
+             <a href="">Latest <i class="fas fa-angle-double-right"></i></a> 
           </h4>
           <hr>
          <div class="owl-carousel owl-theme">
@@ -262,7 +262,7 @@
 <div class="bestseller">
       <div class="container1">
           <h4>
-             <a href="">Fan Favourite</a> 
+             <a href="">Fan Favourite <i class="fas fa-angle-double-right"></i></a> 
           </h4>
           <hr>
          <div class="owl-carousel owl-theme">
@@ -358,23 +358,26 @@
  </div>
 </div>  
 <!--Heavy Discounts-->
-<!--Adds-->
-<!-- <section id="banner_adds">
-    <div class="conatainer py-5 text-center" style="width:100% !important;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFTkxLtHG4STpAGIGpFyH7_rPvp-o3dqTi8A&usqp=CAU" alt="" class="img-fluid">
-    </div>
-</section> -->
-<!--!Adds-->
 <!--!Collections-->
 <!-- fanlove -->
-    <div class="">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, perferendis harum at maxime necessitatibus quam facilis unde modi officia laudantium sequi recusandae, ipsam reiciendis soluta corrupti illum consectetur corporis ullam!
+    <div class="fan_love">
+    <div class="container1">
+         <center><h4>
+             Fan Love 
+          </h4> 
+          <hr>  
+          <div class="owl-carousel owl-theme">
+          <div class="review py-5">
+              <div class="quote py-5">
+              <i class="fas fa-quote-right"></i>
+              <p>I&rsquo;m not even gon lie to you, i love my tee so much right now.</p>
+              <div class="reviewer py-3">
+                  <span>-nitish</span>
+              </div>
+              </div>
+          </div>
+          </center>
+          </div>      
     </div>
 <!-- !fanlove -->
 <!--!Main-->
