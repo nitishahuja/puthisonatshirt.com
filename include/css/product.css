@@ -4,55 +4,10 @@ body{
     width: 100%;
     background: rgb(247, 243, 243) !important;
 }
-
-.back{
-    margin-top: -60px;
-    padding: 20px;
-    background: none;
-} 
-.card{
-    border-radius: 8px !important;
-    transition: 0.3s;
-    display:flex;
-    justify-content:space-around;
-}
-.card p{
-text-align: center;
-}
-
-.card-title{
-    text-align: center;
-    color: red;
-}
-
-.card-title p{
-    text-align: center;
-}
-
-.card a{
-    border-radius: 8px !important;
-    text-decoration: none;
-}
-
-.card a:hover {
-
-    text-decoration: none;
-    background-color: #bbbb;
-    
+.product .container img{
+    border-radius: 8px;
     
 }
-
-.card-img-bottom{
-    height: 100%;
-    width: 100%;
-}
-
-.card-group{
-   margin-top: 0px;
-   
-}
-
-
 
 .bestseller .container1{
     display: block;
@@ -133,55 +88,4 @@ text-align: center;
 .bestseller .owl-carousel .owl-nav button.owl-next span:hover,
 .bestseller .owl-carousel .owl-nav button.owl-prev span:hover{
     transform: scale(1);
-}
-
-@media only screen and (max-width: 630px){
-    .bestseller .owl-carousel .item .product h6{
-        font-size: 12px;
-    }
-}
-
-.fanlove .container1{
-    display: block;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-    width: 95%;
-    margin:  20px auto;
-    background: white;
-    padding: 20px;
-}
-.fanlove .container1 h4 {
-    font-family: monospace;
-    font-size: 25px; 
-    color: black; 
-}
-
-.fanlove .container1 .item .product .fa-quote-right{
-    font-size: 20px;
-}
-
-.fanlove .container1 .item .product p{
-    font-size: 16px;
-    font-weight: 550;
-    font-family:monospace;
-}
-
-.fanlove .container1 .item .product .name{
-    font-weight:lighter;
-    font-family: sans-serif;
-}
-
-.fanlove .owl-carousel .owl-nav button{
- display: none !important;
-}
-
-
-.fanlove .owl-carousel .owl-dots{
-    font-size: 35px;
-    color: black;
-    margin: auto;
-}
-.fanlove .owl-carousel .owl-dots button{
-    color: black;
-    margin: auto;
 }
