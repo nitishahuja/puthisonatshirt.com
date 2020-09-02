@@ -69,7 +69,7 @@
          <div class="owl-carousel owl-theme">
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -80,7 +80,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -91,7 +91,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -102,7 +102,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -113,7 +113,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -124,7 +124,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -135,7 +135,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -146,7 +146,7 @@
              </div>      
              <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                   <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -168,7 +168,7 @@
          <div class="owl-carousel owl-theme">
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -179,7 +179,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -190,7 +190,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -201,7 +201,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -212,7 +212,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -223,7 +223,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -234,7 +234,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -245,7 +245,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -268,7 +268,7 @@
          <div class="owl-carousel owl-theme">
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -279,7 +279,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -290,7 +290,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -301,7 +301,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -312,7 +312,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -323,7 +323,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -334,7 +334,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -345,7 +345,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">

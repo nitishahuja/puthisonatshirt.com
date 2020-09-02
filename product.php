@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid">
+                        <img src="./include/images/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid">
                         <div class="form-row pt-4 font-size-16">
                             <div class="col">
                                 <button type="submit" class="btn btn-danger form-control">Buy Now</button>
@@ -70,7 +70,7 @@
          <div class="owl-carousel owl-theme">
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -81,7 +81,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -92,7 +92,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -103,7 +103,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -114,7 +114,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -125,7 +125,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -136,7 +136,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
@@ -147,7 +147,7 @@
             </div>      
             <div class="item py-2">
                <div class="product">
-                    <a href="#"><img src="https://pbs.twimg.com/media/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
+                    <a href="#"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
                     <div class="text-center m-2">
                         <h6>Modi-"Criticise me"</h6>
                         <div class="price py-2">
