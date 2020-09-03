@@ -89,3 +89,26 @@ body{
 .bestseller .owl-carousel .owl-nav button.owl-prev span:hover{
     transform: scale(1);
 }
+
+.policy {
+    display: flex !important;
+    text-align: center !important;
+    justify-content: space-between !important;
+    margin: auto;
+}
+
+.product .col-sm-6 .money{
+    text-align: center;
+    font-size: large;
+}
+.product a{
+    color: black;
+}
+
+/* .product form .form-control{
+    background: #f4f4f4;
+} */
+
+.product a:hover{
+    text-decoration: none !important;
+}
