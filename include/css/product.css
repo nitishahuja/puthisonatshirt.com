@@ -109,6 +109,29 @@ body{
     background: #f4f4f4;
 } */
 
-.product a:hover{
+.product .container a:hover{
     text-decoration: none !important;
+    color: black !important;
+}
+
+.product .container form h6 {
+    font-family: monospace !important;
+    font-weight: bolder !important;
+}
+
+.product .container ul li{
+    font-family:ui-monospace;
+    font-weight:bold;
+}
+
+.product .container form select{
+    background: #f4f4f4 !important;
+}
+
+.product .container form .btn-primary{
+    background: #006eff !important;
+}
+.product .container h2{
+    font-family: monospace !important;
+    font-weight:bolder;
 }

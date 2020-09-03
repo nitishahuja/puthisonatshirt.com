@@ -31,10 +31,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="./include/images/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid">
+                        <img src="./include/images/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid" id="myModal">
+                        <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                        </div>
                     </div>
                     <div class="col-sm-6">
-                        <h1 class="font-size-20 py-3"><center>Modi-"Criticise me"</center></h1>
+                        <h2 class="font-size-20 py-3"><center>Modi-"Criticise me"</center></h2>
                            <!--product price  -->
                                 <center><span class="money">499 ₹</span></center>
                            <!--!product price  -->
@@ -45,7 +50,7 @@
                                 <div class="font-size-20 my-2 color-second">
                                     <span class="fas fa-retweet border p-3 rounded-pill"></span>
                                 </div>
-                                <a href="" class="font-size-12">7 Days<br>Replacement</a>
+                                <a href="" class="font-size-12">7 Day<br>Return</a>
                                 
                             </div>
                             <div class="return">
@@ -63,7 +68,7 @@
                             </div>
                             </div>
                            <!-- form -->
-                            <form action="index.php"> 
+                            <form action=""> 
                                 <div class="form-row">
                                     <div class="col">
                             <label for=""  class="m-1">Style</label>
@@ -85,24 +90,24 @@
                             </div>
                             </div>
                             <div class="form-row">
-                                <div class="col">
+                                <div class="col-6">
                                 <label for="" class="m-1">Color</label>
                             <select class="form-control">
                             <option>Black</option>
                             <option>White</option>
                             </select>
                                 </div>
-                                <div class="col">
+                                <div class="col-6">
                                 <label for="" class="m-1">Quantity</label>
                                 <div class="input-group">
                                     <span class="input-group-btn">
-                                        <button type="button" class="quantity-left-minus btn btn-dark btn-number" data-type="minus" data-field="">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number" data-type="minus" data-field="">
                                         <i class="fas fa-minus"></i>
                                         </button>
                                     </span>
-                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="10">
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="10" disabled>
                                     <span class="input-group-btn">
-                                        <button type="button" class="quantity-right-plus btn btn-dark btn-number" data-type="plus" data-field="">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                         <i class="fas fa-plus"></i>
                                         </button>
                                     </span>
@@ -111,16 +116,28 @@
                             </div>
                         <div class="form-row pt-4 font-size-16">
                             <div class="col">
-                                <button type="submit" class="btn btn-primary form-control">Buy Now</button>
+                                <button type="submit" class="btn btn-primary form-control">BUY NOW</button>
                             </div>
                             <div class="col">
-                                <button type="submit" class="btn btn-primary form-control">Add to Cart</button>
+                                <button type="submit" class="btn btn-primary form-control">ADD TO CART</button>
                             </div>
                         </div>
                         </form>
                             <!-- !form -->
                     </div>
                   </div>
+
+                  <div class="col-12 my-3">
+                       <h6>Product Details</h6>
+                        <hr>
+                        <ul class>
+                            <li>Tees: 100% premium cotton</li>
+                            <li>Crewnecks and hoodies: 50% cotton, 50% polyester fleece finish</li>
+                            <li>100% authentic</li>
+                            <li>Machine washable</li>
+                        </ul>
+                    </div>
+
               </div>
           </div>
         </section>
@@ -228,6 +245,32 @@
 <div class="footer">
           <?php include "footer.php"; ?>
       </div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
       <script>
           $(document).ready(function(){
 
