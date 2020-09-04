@@ -133,5 +133,5 @@ body{
 }
 .product .container h2{
     font-family: monospace !important;
-    font-weight:bolder;
+    font-weight:bold !important;
 }

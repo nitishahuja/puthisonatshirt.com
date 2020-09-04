@@ -73,7 +73,7 @@
                                     <div class="col">
                             <label for=""  class="m-1">Style</label>
                             <select class="form-control">
-                            <option selected="true">Tee</option>
+                            <option selected="true">Tee<i class="fas fa-tshirt"></i></option>
                             <option disabled="disabled">Hoodie</option>
                             <option disabled="disabled">Crewneck Sweater</option>
                             </select>
@@ -105,7 +105,7 @@
                                         <i class="fas fa-minus"></i>
                                         </button>
                                     </span>
-                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="10" disabled>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" disabled>
                                     <span class="input-group-btn">
                                         <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
                                         <i class="fas fa-plus"></i>
@@ -242,70 +242,27 @@
     <!-- !product -->
 <!--!Main-->
 <!--Footer-->
-<div class="footer">
+      <div class="footer">
           <?php include "footer.php"; ?>
       </div>
 
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
-
-
       <script>
           $(document).ready(function(){
+            var $quantity=0;
+            $('.quantity-right-plus').click(function(e){
+                e.preventDefault();
+                var quantity = parseInt($('#quantity').val());
+                $('#quantity').val(quantity + 1);
+            });
 
-var quantitiy=0;
-   $('.quantity-right-plus').click(function(e){
-        
-        // Stop acting like a button
-        e.preventDefault();
-        // Get the field name
-        var quantity = parseInt($('#quantity').val());
-        
-        // If is not undefined
-            
-            $('#quantity').val(quantity + 1);
-
-          
-            // Increment
-        
-    });
-
-     $('.quantity-left-minus').click(function(e){
-        // Stop acting like a button
-        e.preventDefault();
-        // Get the field name
-        var quantity = parseInt($('#quantity').val());
-        
-        // If is not undefined
-      
-            // Increment
-            if(quantity>0){
-            $('#quantity').val(quantity - 1);
-            }
-    });
-    
-});
+            $('.quantity-left-minus').click(function(e){
+                e.preventDefault();
+                var quantity = parseInt($('#quantity').val());
+                if(quantity>0){
+                $('#quantity').val(quantity - 1);
+                }
+        });
+   });
       </script>
       <script src="include/index.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" inte-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
