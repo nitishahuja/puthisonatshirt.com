@@ -46,20 +46,6 @@
       })
     })
   </script> 
-  <script>
-    $(window).scroll(function(){  
-     if ($(this).scrollTop() > 200) {
-        $('.nav').addClass("fixed-top");
-        // add padding top to show content behind navbar
-        $('body').css('padding-top', $('.nav').outerHeight() + 'px');
-      }else{
-        $('.nav').removeClass("fixed-top");
-         // remove padding top from body
-        $('body').css('padding-top', '0');
-      }   
-  });
-}
-    </script> 
 </body>
 </html>
 

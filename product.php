@@ -246,24 +246,26 @@
           <?php include "footer.php"; ?>
       </div>
 
-      <script>
+      <!-- <script>
           $(document).ready(function(){
-            var $quantity=0;
+            var quantity=0;
             $('.quantity-right-plus').click(function(e){
                 e.preventDefault();
                 var quantity = parseInt($('#quantity').val());
+                if(quantity<10){
                 $('#quantity').val(quantity + 1);
+                }
             });
 
             $('.quantity-left-minus').click(function(e){
                 e.preventDefault();
                 var quantity = parseInt($('#quantity').val());
-                if(quantity>0){
+                if(quantity>1){
                 $('#quantity').val(quantity - 1);
-                }
+                } 
         });
    });
-      </script>
+      </script> -->
       <script src="include/index.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" inte-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 </body>

@@ -15,12 +15,10 @@
     
 </head>
 <body>
-    <!--Header-->
-<!--Navbar-->
+<!--Header-->
 <div class="navbar1">
      <?php include"navbar.php"; ?>
  </div>
-<!-- Navbar2-->  
  <div class="navbar2">
     <?php include"navbar2.php"; ?>
 </div> 
