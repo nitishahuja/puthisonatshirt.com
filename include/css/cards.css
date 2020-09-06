@@ -1,12 +1,16 @@
 .back{
-    margin: auto;
-    padding: 20px;
-    background: none;
+    padding: 20px !important;
+    background: transparent !important;
 } 
-.card{
+.back .card{
+    margin-top: -60px !important;
+    border-radius: 8px !important;
     transition: 0.3s;
     display:flex;
     justify-content:space-around;
+}
+.card p{
+text-align: center;
 }
 
 .card-title{
@@ -14,15 +18,17 @@
     color: red;
 }
 
-p{
+.card-title p{
     text-align: center;
 }
 
-a{
+.card a{
+    border-radius: 8px !important;
     text-decoration: none;
 }
 
 .card a:hover {
+
     text-decoration: none;
     background-color: #bbbb;
     
@@ -38,4 +44,3 @@ a{
    margin-top: 0px;
    
 }
-
