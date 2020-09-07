@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="./include/css/navbar2.css" type="text/css">
       <link rel="stylesheet" href="./include/css/cards.css" type="text/css">
       <link rel="stylesheet" href="./include/css/footer.css" type="text/css">
+      <link rel="stylesheet" href="./include/css/shop.css" type="text/css">
       <link rel="stylesheet" href="./include/css/product.css" type="text/css">
   <!--Bootstrap CDN-->
       <script src="https://code.jquery.com/slim.min.js"></script>
