@@ -112,6 +112,6 @@
           </div>
         </section>
         
-<?php include "fan_favourite.php"; ?>
+<?php include "fan_favourite.php" ?>
     <!-- !product -->
 <?php include "footnote.php"; ?>

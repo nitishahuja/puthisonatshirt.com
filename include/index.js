@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     // owl-carousel
     $(".bestseller .owl-carousel").owlCarousel({
-        loop:true,
+        loop:false,
         nav:true,
         margin:0,
         dots:true,
@@ -88,4 +88,5 @@ $(document).ready(function(){
             $('.close').removeClass('active')
             $('#search').show()
           });
+     
 });

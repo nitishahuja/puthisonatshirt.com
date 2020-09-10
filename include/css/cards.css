@@ -1,9 +1,10 @@
 .back{
+    margin-top: -100px !important;
     padding: 20px !important;
     background: transparent !important;
 } 
 .back .card{
-    margin-top: -60px !important;
+    
     border-radius: 8px !important;
     transition: 0.3s;
     display:flex;

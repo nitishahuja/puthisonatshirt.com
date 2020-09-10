@@ -1,5 +1,5 @@
 <div class="bestseller">
-                         <div class="container1">
+                 <div class="container1">
                               <h4>
                               <a href="">Best Seller <i class="fas fa-angle-double-right"></i></a> 
                               </h4>
