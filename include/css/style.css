@@ -144,3 +144,7 @@ body{
 #carouselIndicators{
     z-index: 0;
 }
+
+.grid .grid-item .item{
+    background-color: rgb(244 244 244) !important;
+}
