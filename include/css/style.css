@@ -28,11 +28,13 @@ body{
 
 .bestseller .owl-carouse .item .product a{
     overflow: hidden;
+    
     margin: 5px 5px 5px 5px;
 }
 
 .bestseller .owl-carousel .item .product img{
     margin: 5px 5px 5px 5px;
+    border-radius: 5px;
 }
 
 .bestseller .owl-carousel .item .product img:hover{
@@ -145,6 +147,4 @@ body{
     z-index: 0;
 }
 
-.grid .grid-item .item{
-    background-color: rgb(244 244 244) !important;
-}
+
