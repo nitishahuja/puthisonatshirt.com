@@ -19,16 +19,38 @@
     flex-grow: 1;
     flex-basis: 30%;
 }
+
 .products .product-card a{
     color: black;
-    transition: 200ms;
-}
-.products .product-card a:hover{
-    text-decoration: none;
-    transform: scale(1.5);
 }
 
-@media only screen and (max-width: 300px){
+.products .product-card:hover{
+    transform: scale(1.05);
+    transition: 200ms;
+}
+
+.products .product-card a:hover{
+    text-decoration: none;
+}
+#special-price .container1 h4 a{
+    font-family: monospace;
+    font-size: 25px; 
+    color: black; 
+}
+#special-price .container1 h4 a:hover{
+    text-decoration: none;
+}
+
+.products .product-card .text-center{
+    font-weight: 300;
+}
+
+.products .product-card .text-center,
+.products .product-card h4{
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 380px){
     .products .product-card h6,
     .products .product-card .text-center{
         font-size: 10px;

@@ -34,7 +34,9 @@
 
      <section id="special-price">
             <div class="container1">
-              <h4 class="font-size-20">Products</h4>
+            <h4>
+                 <a href="">Products <i class="fas fa-angle-double-right"></i></a> 
+            </h4>
               <div id="filters" class="button-group text-right font-size-16">
                 <button class="btn is-checked" data-filter="*">All</button>
                 <button class="btn" data-filter=".comedy">Comedy</button>

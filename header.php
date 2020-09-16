@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="./include/css/shop.css" type="text/css">
       <link rel="stylesheet" href="./include/css/product.css" type="text/css">
       <link rel="stylesheet" href="./include/css/all_products.css" type="text/css">
+      <link rel="stylesheet" href="./include/css/collection.css" type="text/css">
   <!--Bootstrap CDN-->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://code.jquery.com/slim.min.js"></script>
