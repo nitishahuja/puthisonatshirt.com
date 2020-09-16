@@ -82,29 +82,5 @@
                            </div> 
                          </div>
                       </div>
-          <!-- <script>
-               $(document).ready(function(){
-          $(".fanlove .owl-carousel").owlCarousel({
-          loop:true,
-          nav:false,
-          dots:true,
-          autoplay:true,
-          autoplayTimeout:3000,
-          margin:0,
-          responsive:{
-               0:{
-                    items:1,
-                    dots:true
-               },
-               600:{
-                    items:1,
-                    dots:true
-               },
-               1000:{
-                    items:1,
-                    dots:true
-               }
-          }
-          })
-          })
-          </script> -->
+                    </div>
+          

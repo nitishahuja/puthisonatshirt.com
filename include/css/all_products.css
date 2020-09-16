@@ -1,0 +1,43 @@
+#special-price .container1{
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 95%;
+    margin:  20px auto;
+    background: white;
+    padding: 20px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products .product-card{
+    border-radius: 5px;
+    margin:5px 5px 5px 5px; 
+    padding: 0;
+    flex-grow: 1;
+    flex-basis: 30%;
+}
+.products .product-card a{
+    color: black;
+    transition: 200ms;
+}
+.products .product-card a:hover{
+    text-decoration: none;
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 300px){
+    .products .product-card h6,
+    .products .product-card .text-center{
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 490px){
+    .products .product-card{
+        flex-basis: 40%;
+    }
+}
