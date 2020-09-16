@@ -1,4 +1,4 @@
- <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" style="height:100%;" >
     <div class="carousel-item active">
       <img src="./include/images/kanye_west.png" class="d-block w-100" alt="..." style="width:100%;">

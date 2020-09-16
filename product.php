@@ -41,7 +41,7 @@
                             </div>
                             </div>
                            <!-- form -->
-                            <form action=""> 
+                            <form action="cart.php"> 
                                 <div class="form-row">
                                     <div class="col">
                             <label for=""  class="m-1">Style</label>
@@ -112,6 +112,5 @@
           </div>
         </section>
         
-<?php include "fan_favourite.php" ?>
-    <!-- !product -->
+<?php include "bestseller.php" ?>
 <?php include "footnote.php"; ?>

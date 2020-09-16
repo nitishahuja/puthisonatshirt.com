@@ -92,7 +92,7 @@ $(document).ready(function(){
           
            // isotope filter
     var $grid = $(".products").isotope({
-        itemSelector : '.product-card',
+        itemSelector : ".product-card"
     });
 
     // filter items on button click
