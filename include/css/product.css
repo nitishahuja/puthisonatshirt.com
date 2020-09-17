@@ -4,9 +4,9 @@ body{
     width: 100%;
     background: rgb(247, 243, 243) !important;
 }
+
 .product .container img{
-    border-radius: 8px;
-    
+    border-radius: 8px;    
 }
 
 .bestseller .container1{
@@ -124,7 +124,8 @@ body{
     font-weight:bold;
 }
 
-.product .container form select{
+.product .container form select,
+.product .container form input[type=text]{
     background: #f4f4f4 !important;
 }
 
@@ -134,4 +135,7 @@ body{
 .product .container h2{
     font-family: monospace !important;
     font-weight:bold !important;
+}
+.product .container form p{
+    font-weight: 200;
 }

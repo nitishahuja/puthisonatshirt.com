@@ -3,7 +3,7 @@
     <div class="container1">
             <div class="card-group">
            <div class="card">
-             <a href="#">
+             <a href="shop.php">
                <div class="card-body">
                  <h5 class="card-title">BESTSELLER</h5>
                  <p class="card-text"><small class="text-muted">VIEW ALL</small></p>
@@ -12,7 +12,7 @@
               </a>
             </div>
             <div class="card">
-              <a href="#">
+              <a href="shop.php">
                 <div class="card-body">
                   <h5 class="card-title">LATEST</h5>
                   <p class="card-text"><small class="text-muted">VIEW ALL</small></p>
@@ -21,7 +21,7 @@
              </a>
             </div>
             <div class="card">
-              <a href="#">
+              <a href="shop.php">
                <div class="card-body">
                   <h5 class="card-title">FAN FAVOURITE</h5>
                  <p class="card-text"><small class="text-muted">VIEW ALL</small></p>
@@ -32,7 +32,7 @@
           </div>
           <div class="card-group">
            <div class="card">
-             <a href="#">
+             <a href="shop.php">
                <div class="card-body">
                  <h5 class="card-title">MUSIC</h5>
                  <p class="card-text"><small class="text-muted">VIEW ALL</small></p>
@@ -41,7 +41,7 @@
               </a>
             </div>
             <div class="card">
-              <a href="#">
+              <a href="shop.php">
                 <div class="card-body">
                   <h5 class="card-title">CELEBRITIES</h5>
                   <p class="card-text"><small class="text-muted">VIEW ALL</small></p>
@@ -50,7 +50,7 @@
              </a>
             </div>
             <div class="card">
-              <a href="#">
+              <a href="shop.php">
                <div class="card-body">
                   <h5 class="card-title">POLITICS</h5>
                  <p class="card-text"><small class="text-muted">VIEW ALL</small></p>

@@ -4,7 +4,7 @@
          <li><a href="index.php" class="menu-item">HOME</a></li>
          <li><a href="collection.php" class="menu-item">COLLECTIONS</a></li>
          <li><a href="shop.php" class="menu-item">SHOP</a></li>
-         <li><a href="#" class="menu-item">CUSTOMISE</a></li>
+         <li><a href="customise.php" class="menu-item">CUSTOMISE</a></li>
         <li><a href="#" id="search"><i class="fas fa-search"></i></a></li> 
        </ul>
        <div class="search-form">

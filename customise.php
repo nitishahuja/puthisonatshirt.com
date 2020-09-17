@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                    <img src="./include/images/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid">
+                    <img src="./include/images/planeTshirt.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-sm-6">
                         <h2 class="font-size-20 py-3"><center>Modi-"Criticise me"</center></h2>
@@ -80,15 +80,10 @@
                          </div>
                             </div>
                         <div class="form-row pt-4 font-size-16">
-                            <!-- <div class="col">
-                                <button type="submit" class="btn btn-primary form-control">BUY NOW</button>
-                            </div>
-                            <div class="col"> -->
+                                <label for="" class="text-center m-1">Pase Tweet url</label>
+                                <input type="text" class="form-control m-2">
                                 <button type="submit" class="btn btn-primary form-control">ADD TO CART</button>
-                            </div>
-                            <hr>
-                           <p>"You are free to criticise me. Constructive criticism makes our democracy stronger and is vital"<br>- @narendramodi</p>
-                        </div>
+                           </div>
                         </form>
                             <!-- !form -->
                     </div>

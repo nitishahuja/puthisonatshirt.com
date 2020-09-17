@@ -148,3 +148,36 @@ body{
 }
 
 
+.login .container1{
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 50%;
+    margin:  20px auto;
+    background: white;
+    padding: 20px;
+}
+
+.login .container1 form input[type=text],
+.login .container1 form input[type=password]{
+    background: #f4f4f4 !important;
+}
+
+.login .container1 .text-center li{
+    list-style: none;
+}
+.login .container1 .text-center li a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 440px){
+    .login .container1{
+        display: block;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        width: 80%;
+        margin:  20px auto;
+        background: white;
+        padding: 20px;
+    }
+}
