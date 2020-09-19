@@ -90,14 +90,14 @@ $(document).ready(function(){
           });
    
           
-           // isotope filter
-    var $grid = $(".products").isotope({
-        itemSelector : ".product-card"
-    });
+    //        // isotope filter
+    // var $grid = $(".products").isotope({
+    //     itemSelector : ".product-card"
+    // });
 
-    // filter items on button click
-    $(".button-group").on("click", "button", function(){
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue});
-    });
+    // // filter items on button click
+    // $(".button-group").on("click", "button", function(){
+    //     var filterValue = $(this).attr('data-filter');
+    //     $grid.isotope({ filter: filterValue});
+    // });
 });

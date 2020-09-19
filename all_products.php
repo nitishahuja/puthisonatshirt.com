@@ -3,10 +3,13 @@
             <h4>
                  <a href="shop.php">Products <i class="fas fa-angle-double-right"></i></a> 
             </h4>
-              <div id="filters" class="button-group text-right font-size-16">
-                <button class="btn is-checked" data-filter="*">All</button>
-                <button class="btn" data-filter=".comedy">Comedy</button>
-                <button class="btn" data-filter=".celebrity">Celebrity</button>
+              <div id="filters" class="text-right">
+                <label for="">Sort By:<br></label>
+                <select name="" id="">
+                   <option value=""selected="true">Featured</option>
+                   <option value="">Price: Low to High</option>
+                   <option value="">Price: High to Low</option>
+                </select>
               </div>
               <hr>
               <section class="products">

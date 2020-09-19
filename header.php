@@ -27,6 +27,10 @@
       <!-- logo and title -->
       <link rel="shortcut icon" type="image/x-icon" href="./include/images/logo.png"/>
       <title>Puthisonatshirt.com</title>
+      <?php
+        //   require functions.php file
+        require("./include/database/functions.php");
+      ?>
    </head>
            <body>
                <!--Header-->

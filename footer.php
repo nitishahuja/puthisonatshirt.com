@@ -3,14 +3,12 @@
         <div class="row">
           <div class="col-sm-6 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">The main reason is very straightforward: Laughter and unity. We love to laugh. Who doesn’t? Tweets and insta posts have this very particular way of sharing something that’s ironic, embarrassing, or just plain silly. When you share a laugh with someone, you also come together. Twitter/Instagram has become such a large outlet for bursts of energy that are just meant to be commemorated and shared. We also deeply care that you get to voice your own tweets/insta posts on clothing, which is why we allow for customization. It’s a big deal to us to make it accessible for you. 😁</p>
+            <p class="text-justify">The main reason is very straightforward: Laughter and unity. We love to laugh. Who doesn’t? Tweets have this very particular way of sharing something that’s ironic, embarrassing, or just plain silly. When you share a laugh with someone, you also come together. Twitter has become such a large outlet for bursts of energy that are just meant to be commemorated and shared. We also deeply care that you get to voice your own tweets posts on clothing, which is why we allow for customization. It’s a big deal to us to make it accessible for you. 😁</p>
           </div>
-
-          <div class="col-xs-6 col-md-3">
+            <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul class="footer-links">
               <li><a href="#">Comedy</a></li>
-              <li><a href="#">Business</a></li>
               <li><a href="#">Celebrities</a></li>
               <li><a href="#">Bestsellers</a></li>
               <li><a href="#">Politics</a></li>
@@ -22,8 +20,7 @@
             <ul class="footer-links">
               <li><a href="mailto:connect@puthisonatshirt.com">Contact us</a></li>
               <li><a href="#">Track Your Order</a></li>
-              <li><a href="#">Contribute</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Business</a></li>
             </ul>
           </div>
         </div>

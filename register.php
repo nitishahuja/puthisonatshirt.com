@@ -12,7 +12,7 @@
                 <input type="text" class="form-control">
                 <label for="">Password</label>
                 <input type="password" class="form-control">
-                <button type="submit" class="btn btn-primary text-center form-control my-2">SIGN IN</button>
+                <button type="submit" class="btn btn-primary text-center form-control my-2">CREATE</button>
             </form>
         </div>
     </div>

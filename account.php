@@ -1,5 +1,4 @@
 <?php include "header.php" ?>
-
     <div class="login">
         <div class="container1">
             <form action="account.php">
@@ -12,11 +11,10 @@
             </form>
             <div class="text-center">
                 <ul>
-                    <li><a href="#" class="text-primary m-auto">forgot password?</a></li>
-                   <li><a href="register.php" class="text-primary m-auto">Create account</a></li>
+                    <li><a href="#" class="text-primary m-auto my-1">Forgot your password?</a></li>
+                   <li><a href="register.php" class="text-primary m-auto my-1">Create account</a></li>
                 </ul>
                 </div>
         </div>
     </div>
-
 <?php include "footnote.php"; ?>
