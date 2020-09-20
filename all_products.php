@@ -21,7 +21,7 @@
                      <div class="text-center">
                       <h6>Modi-"Criticise me</h6>
                       <div class="price">
-                        <span>499 ₹</span>
+                        <span>700 ₹</span>
                       </div>
                     </div>
                     </a>
@@ -29,12 +29,12 @@
                  <div class="product-card border comedy celebrity">
                  <a href="product.php">
                      <div class="product-image">
-                         <img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid">
+                         <img src="./include/images/Kanye-6-Love-Me.png" class="img-fluid">
                      </div>
                      <div class="text-center">
-                      <h6>Modi-"Criticise me</h6>
+                      <h6>Kanye West - "I love me so much right now"</h6>
                       <div class="price">
-                        <span>499 ₹</span>
+                        <span>700 ₹</span>
                       </div>
                     </div>
                     </a>
@@ -42,12 +42,12 @@
                  <div class="product-card border comedy celebrity">
                  <a href="product.php">
                      <div class="product-image">
-                         <img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid">
+                         <img src="./include/images/covfefe_tweet.jpg" class="img-fluid">
                      </div>
                      <div class="text-center">
-                      <h6>Modi-"Criticise me</h6>
+                      <h6>Donald Trimp-"Covfefe"</h6>
                       <div class="price">
-                        <span>499 ₹</span>
+                        <span>700 ₹</span>
                       </div>
                     </div>
                     </a>
@@ -55,12 +55,12 @@
                  <div class="product-card border comedy celebrity">
                  <a href="product.php">
                      <div class="product-image">
-                         <img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid">
+                         <img src="./include/images/elonmusk_covid.jpg" class="img-fluid">
                      </div>
                      <div class="text-center">
-                      <h6>Modi-"Criticise me</h6>
+                      <h6>Elon Musk- "coronavirus panic is dumb"</h6>
                       <div class="price">
-                        <span>499 ₹</span>
+                        <span>700 ₹</span>
                       </div>
                     </div>
                     </a>
@@ -68,12 +68,12 @@
                  <div class="product-card border comedy celebrity">
                  <a href="product.php">
                      <div class="product-image">
-                         <img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid">
+                         <img src="./include/images/KanyeWest_imaFixWolves.png" class="img-fluid">
                      </div>
                      <div class="text-center">
-                      <h6>Modi-"Criticise me</h6>
+                      <h6>Kanye West - "Ima fix wolves"</h6>
                       <div class="price">
-                        <span>499 ₹</span>
+                        <span>700 ₹</span>
                       </div>
                     </div>
                     </a>

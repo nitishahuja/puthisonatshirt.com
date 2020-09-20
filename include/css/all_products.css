@@ -47,7 +47,7 @@
 
 .products .product-card .text-center,
 .products .product-card h4{
-    margin-top: auto;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 380px){
