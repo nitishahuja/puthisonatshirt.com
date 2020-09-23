@@ -19,7 +19,7 @@ class DBControllor
     }
 
     public function close(){
-        $this->closeConnection();
+        $this->closeConnection( );
     }
 
     // for mysqli closing connection
