@@ -25,12 +25,12 @@
   .menu ul li,
   .menu ul li a{
     font-size: 20px;
-    color: #bbbb;
+    color: white;
     line-height: 100px;
   }
   .menu ul li a:hover{
     text-decoration: none;
-    color: white;
+    color: #bbbb;
     transition: none;
   }
   .menu ul li a.menu-item{
