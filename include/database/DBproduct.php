@@ -14,14 +14,15 @@ class DBproduct{
     // fetch product data from detData method
      public function getData($table = 'product')
      {
-    //  $result = $this->db->con->query(query:"SELECT * from table {$table}");
+     $result = $this->db->con->query("SELECT * FROM {$table}");
 
      $resultArray = array();
 
-    //  fetch product data 
-    //  while($item = mysqli_fetch_array($result,resulttype: MYSQLI_ASSOC))
+     // fetch product data 
+     while($item = mysqli_fetch_array($result,MYSQLI_ASSOC))
      {
-        //  $resultArray[] = $item;
+         $resultArray[] = $item;
      }
+     return $resultArray;
      }
 }

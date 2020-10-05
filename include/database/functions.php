@@ -12,3 +12,5 @@ $db = new DBControllor();
  
 // product object
 $product = new  DBproduct($db);
+
+// print_r($product->getData());

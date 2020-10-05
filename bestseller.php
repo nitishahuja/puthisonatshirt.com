@@ -1,3 +1,9 @@
+<?php
+
+     $bestseller = $product->getData();
+
+?>
+
 <div class="bestseller">
                  <div class="container1">
                               <h4>
@@ -5,94 +11,24 @@
                               </h4>
                               <hr>
                          <div class="owl-carousel owl-theme">
+                              <?php
+                                   foreach($bestseller as $item)
+                                   {
+                              ?>
                               <div class="item py-2">
                                    <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" class="img-fluid"></a>
+                                        <a href="product.php"><img src="<?php echo $item['item_image']; ?>" class="img-fluid"></a>
                                         <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
+                                        <h6><?php echo $item['item_name']; ?></h6>
                                         <div class="price py-2">
-                                             <span>₹ 499</span>
+                                             <span> ₹ <?php echo $item['item_price']; ?></span>
                                         </div>
                                         </div>
                                    </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                        <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                        </div>
-                                   </div>
-                              </div>      
-                              <div class="item py-2">
-                                   <div class="product">
-                                        <a href="product.php"><img src="./include/images/EKrVUGwXYAAioxe.jpg" a class="img-fluid"></a>
-                                   <div class="text-center m-2">
-                                        <h6>Modi-"Criticise me"</h6>
-                                        <div class="price py-2">
-                                             <span>₹ 499</span>
-                                        </div>
-                                   </div>
-                              </div>
-                              </div>      
+                              </div>   
+                              <?php
+                                   }
+                              ?>
                          </div>
                     </div>   
                     </div>   
