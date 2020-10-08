@@ -1,5 +1,5 @@
      <?php
-     $all_products = $product->getData();
+     $all_products = $product->getData('product');
      ?>
      
      <section id="special-price">
