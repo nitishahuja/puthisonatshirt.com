@@ -1,6 +1,7 @@
 <?php
 
 $latest = $product->getData();
+shuffle($latest);
 
 ?>
                   <div class="bestseller">
@@ -16,7 +17,7 @@ $latest = $product->getData();
                               ?>
                               <div class="item py-2">
                                    <div class="product">
-                                        <a href="product.php"><img src="<?php echo $item['item_image'] ?>" class="img-fluid"></a>
+                                        <a href="<?php printf('%s?item_id=%s','product.php',$item['item_id']) ?>"><img src="<?php echo $item['item_image'] ?>" class="img-fluid"></a>
                                         <div class="text-center m-2">
                                         <h6><?php echo $item['item_name'] ?></h6>
                                         <div class="price py-2">

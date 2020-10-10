@@ -1,15 +1,21 @@
 <?php include "header.php" ?>
-    <!-- product -->
+<?php
+
+    $item_id = $_GET['item_id'];
+    foreach($product->getData() as $item):
+        if($item['item_id'] == $item_id):         
+?>
+<!-- product -->
         <section class="product py-3">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                    <img src="./include/images/EKrVUGwXYAAioxe.jpg" alt="" class="img-fluid">
+                    <img src="<?php echo $item['item_image']; ?>" alt="" class="img-fluid">
                     </div>
                     <div class="col-sm-6">
-                        <h2 class="font-size-20 py-3"><center>Modi-"Criticise me"</center></h2>
+                        <h2 class="font-size-20 py-3"><center><?php echo $item['item_name']; ?></center></h2>
                            <!--product price  -->
-                                <center><span class="money">499 ₹</span></center>
+                                <center><span class="money"><?php echo $item['item_price']; ?></span></center>
                            <!--!product price  -->
                            <hr class="m-0">
 
@@ -36,7 +42,7 @@
                             </div>
                             </div>
                            <!-- form -->
-                            <form action="cart.php"> 
+                            <form action=""> 
                                 <div class="form-row">
                                     <div class="col">
                             <label for=""  class="m-1">Style</label>
@@ -87,12 +93,16 @@
                                 <button type="submit" class="btn btn-primary form-control">ADD TO CART</button>
                             </div>
                             <hr>
-                           <p>"You are free to criticise me. Constructive criticism makes our democracy stronger and is vital"<br>- @narendramodi</p>
+                           <p><?php echo $item['item_description']; ?><br>- <?php echo $item['item_username']; ?></p>
                         </div>
                         </form>
                             <!-- !form -->
                     </div>
                   </div>
+                  <?php
+                    endif;
+                  endforeach;
+                  ?>
                   <div class="col-12 my-3">
                        <h6>Product Details</h6>
                         <hr>
