@@ -29,10 +29,11 @@
       <title>Puthisonatshirt.com</title>
       <?php
         //   require functions.php file
-        require("./include/database/functions.php");
+        require("functions.php");
       ?>
    </head>
            <body>
+             <?php ob_start(); ?>
                <!--Header-->
                    <div class="navbar1">
                       <?php include"navbar.php"; ?>

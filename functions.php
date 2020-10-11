@@ -2,12 +2,11 @@
 //   require mysql connection
 require("./include/database/DBControllor.php");
 
-
 //   require DBPRODUCT
 require("./include/database/DBproduct.php");
 
-//   require cart
-require("./include/database/cart.php");
+//   require Cart
+require("./include/database/Cart.php");
  
 
 // DBControllor object
@@ -18,10 +17,4 @@ $product = new  DBproduct($db);
 
 
 // Cart Object
-$cart = new cart($db);
-$arr = array(
-    "user_id"=>2,
-    "item_id" =>1003
-);
-
-$cart->inserIntoCart($arr);
+$cart = new Cart($db);

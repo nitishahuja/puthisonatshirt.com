@@ -1,4 +1,6 @@
-<?php include "header.php"; ?>
+<?php 
+ob_start();
+include "header.php"; ?>
       <!--Carousel-->
            <?php include"crousel.php"; ?>
       <!--Cards-->

@@ -1,11 +1,21 @@
 <?php include "header.php" ?>
-<?php
+<?php            
+    if($_SERVER['REQUEST_METHOD']=="POST")
+{
+    if(isset($_POST['addToCart'])){
+        $cart->addToCart($_POST['user_id'],$_POST['item_id']);
+    }
+}
+?>
 
+
+<!-- product -->
+<?php
+// request method post
     $item_id = $_GET['item_id'];
     foreach($product->getData() as $item):
-        if($item['item_id'] == $item_id):         
-?>
-<!-- product -->
+   if($item['item_id'] == $item_id): 
+    ?>
         <section class="product py-3">
             <div class="container">
                 <div class="row">
@@ -15,7 +25,7 @@
                     <div class="col-sm-6">
                         <h2 class="font-size-20 py-3"><center><?php echo $item['item_name']; ?></center></h2>
                            <!--product price  -->
-                                <center><span class="money"><?php echo $item['item_price']; ?></span></center>
+                                <center><span class="money"><?php echo $item['item_price']; ?> ₹</span></center>
                            <!--!product price  -->
                            <hr class="m-0">
 
@@ -42,9 +52,11 @@
                             </div>
                             </div>
                            <!-- form -->
-                            <form action=""> 
+                            <form method="post" action="cart.php"> 
                                 <div class="form-row">
                                     <div class="col">
+                                        <input type="hidden" name="user_id" value=<?php echo 1; ?>>
+                                        <input type="hidden" name="item_id" value=<?php echo $item['item_id'] ?>>
                             <label for=""  class="m-1">Style</label>
                             <select class="form-control">
                             <option selected="true">Tee<i class="fas fa-tshirt"></i></option>
@@ -86,11 +98,15 @@
                          </div>
                             </div>
                         <div class="form-row pt-4 font-size-16">
-                            <!-- <div class="col">
-                                <button type="submit" class="btn btn-primary form-control">BUY NOW</button>
-                            </div>
-                            <div class="col"> -->
-                                <button type="submit" class="btn btn-primary form-control">ADD TO CART</button>
+                            <?php 
+                                if(in_array($item['item_id'],$cart->getCartId($product->getData($table='cart')))){
+                                    ?>
+                                    <button type="submit"  class="btn btn-primary form-control">CheckOut Cart</button>
+                                <?php
+                                }else{
+                                    ?>
+                                    <button type="submit" name="addToCart" class="btn btn-primary form-control">ADD TO CART</button>
+                                <?php }  ?>
                             </div>
                             <hr>
                            <p><?php echo $item['item_description']; ?><br>- <?php echo $item['item_username']; ?></p>
