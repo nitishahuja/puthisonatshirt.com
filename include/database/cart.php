@@ -47,7 +47,7 @@ class Cart{
             // insert data into cart table
             $result = $this->inserIntoCart($params);
             if($result){
-                // header("Location:" .$_SERVER['PHP_SELF']);
+                header("Refresh:0;url=cart.php");
             }
         }
     }

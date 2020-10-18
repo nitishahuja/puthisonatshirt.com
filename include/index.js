@@ -57,6 +57,12 @@ $(document).ready(function(){
         let $qty_up = $('.quantity-right-plus');
         // let $input = $('.qty')
 
+
+        // ajax call
+        $ajax({url:"ajax.php",type:'post',data:{itemid : $(this).data("id")}, success:function(result){
+            console.log(result);
+        }});
+
         // click on qty_up button
         $qty_up.click(function(e){
             let $input = $(`.qty[data-id='${$(this).data("id")}']`); 
@@ -88,16 +94,5 @@ $(document).ready(function(){
             $('.close').removeClass('active')
             $('#search').show()
           });
-   
-          
-    //        // isotope filter
-    // var $grid = $(".products").isotope({
-    //     itemSelector : ".product-card"
-    // });
 
-    // // filter items on button click
-    // $(".button-group").on("click", "button", function(){
-    //     var filterValue = $(this).attr('data-filter');
-    //     $grid.isotope({ filter: filterValue});
-    // });
 });

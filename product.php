@@ -6,13 +6,16 @@
         $cart->addToCart($_POST['user_id'],$_POST['item_id']);
     }
 }
+
+    $in_cart=$cart->getCartId($product->getData($table='cart'))??[];
+
 ?>
 
 
 <!-- product -->
 <?php
 // request method post
-    $item_id = $_GET['item_id'];
+     $item_id = $_GET['item_id'];
     foreach($product->getData() as $item):
    if($item['item_id'] == $item_id): 
     ?>
@@ -52,7 +55,7 @@
                             </div>
                             </div>
                            <!-- form -->
-                            <form method="post" action="cart.php"> 
+                            <form method="post"> 
                                 <div class="form-row">
                                     <div class="col">
                                         <input type="hidden" name="user_id" value=<?php echo 1; ?>>
@@ -99,9 +102,9 @@
                             </div>
                         <div class="form-row pt-4 font-size-16">
                             <?php 
-                                if(in_array($item['item_id'],$cart->getCartId($product->getData($table='cart')))){
+                                if(in_array($item['item_id'],$in_cart)){
                                     ?>
-                                    <button type="submit"  class="btn btn-primary form-control">CheckOut Cart</button>
+                                    <button type="submit" disabled class="btn btn-primary form-control">CheckOut Cart</button>
                                 <?php
                                 }else{
                                     ?>
