@@ -37,8 +37,8 @@
                         </button>
                 </div>
                 </div>
-                <div class="col-sm-2">
-                    <span class="m-5"><center><?php echo $item['item_price']; ?> ₹</center></span>
+                <div class="col-sm-2 m-4">
+                <center> ₹<span class="product_price" data-id="<?php echo $item['item_id']; ?>"><?php echo $item['item_price']; ?></span></center> 
                 </div>
                 <div class="col-sm 2">
                 <center>
@@ -72,7 +72,7 @@
             <div class="sub-total text-center mt-3 border-top">
             <h7 class="text-info text-center"><i class="fas fa-check"></i> Your order is eligible for free delivery</h7>
                 <div class="py-4 text-right">
-                    <h6 class="font-size-20">Subtotal (<?php echo count($product->getData('cart')) ?> items): &nbsp; <span class="text-primary">₹<?php echo isset($subTotal) ? $cart->getSum($subTotal) : 0; ?></span></h6>
+                    <h6 class="font-size-20">Subtotal (<?php echo count($product->getData('cart')) ?> items): &nbsp;<span class="text-primary">₹<span class="text-primary subtotal"><?php echo isset($subTotal) ? $cart->getSum($subTotal) : 0; ?></span></span></h6>
                     <button type="submit" class="btn btn-primary mt-3">Checkout</button>
                 </div>
             </div>

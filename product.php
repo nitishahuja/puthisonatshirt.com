@@ -79,26 +79,13 @@
                             </div>
                             </div>
                             <div class="form-row">
-                                <div class="col-6">
+                                <div class="col-12">
                                 <label for="" class="m-1">Color</label>
                             <select class="form-control">
                             <option>Black</option>
                             <option>White</option>
                             </select>
                                 </div>
-                                <div class="col-6">
-                                <label for="" class="m-1">Quantity</label>
-                                <div class="input-group">
-                         <button type="button" data-id="pro1" class="quantity-left-minus btn btn-light btn-number" data-type="minus" data-field="">
-                             <i class="fas fa-minus"></i>
-                         </button>
-                        <input type="text" id="quantity" data-id="pro1" name="quantity" class="qty form-control input-number text-center w-80" value="1" disabled>
-                    
-                        <button type="button" data-id="pro1" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
-                          <i class="fas fa-plus"></i>
-                        </button>
-                </div>
-                         </div>
                             </div>
                         <div class="form-row pt-4 font-size-16">
                             <?php 

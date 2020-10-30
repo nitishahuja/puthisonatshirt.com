@@ -15,7 +15,7 @@ class Cart{
         if($this->db->con!=null){
             if($params!=null){
                 $columns = implode(',',array_keys($params));
-                
+
                 $value = implode(',',array_values($params));
 
                 $query = sprintf("INSERT INTO %s(%s) VALUES(%s)",$table,$columns,$value);
