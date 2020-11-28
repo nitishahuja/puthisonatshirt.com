@@ -4,10 +4,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                    <img src="./include/images/planeTshirt.png" alt="" class="img-fluid">
+                    <img id="featured" src="./include/images/CustomWhiteTshirt.png" alt="" class="img-fluid">
+                        <div id="slide-wrappper">
+                        <i id="slideleft" class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                            <div id="slider">
+                        <img src="./include/images/CustomWhiteTshirt.png"  class="active thumbnail img-fluid" alt="">
+                        <img src="./include/images/CustomBlackTshirt.png" class="thumbnail img-fluid" alt="">
+                        <img src="./include/images/CustomWhiteHoodie.png"  class="thumbnail img-fluid" alt="">
+                        <img src="./include/images/CustomBlackHoodie.png" class="thumbnail img-fluid" alt="">
+                       </div>
+                        <i id="slideright" class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="col-sm-6">
-                        <h2 class="font-size-20 py-3"><center>Modi-"Criticise me"</center></h2>
+                        <h2 class="font-size-20 py-3"><center>CUSTOMIZE YOUR OWN TWEET-TEE</center></h2>
                            <!--product price  -->
                                 <center><span class="money">499 ₹</span></center>
                            <!--!product price  -->
@@ -104,4 +114,28 @@
         </section>
         
 <?php include "bestseller.php" ?>
+ <script type="text/javascript">
+     let thumbnails = document.getElementsByClassName('thumbnail');
+        let activeImage = document.getElementsByClassName('active');
+
+        for(var i = 0;i<thumbnails.length;i++){
+             thumbnails[i].addEventListener('mouseover',function(){
+                //  if(activeImage.length>0){
+                //      activeImage[0].classList.remove('active');
+                //  }
+                 this.classList.add('active')
+                 document.getElementById('featured').src = this.src;
+             })
+        }
+        let buttonRight = document.getElementById('slideright');
+        let buttonLeft = document.getElementById('slideleft')
+
+        buttonLeft.addEventListener('click',function(){
+            document.getElementById('slider').scrollLeft -= 180
+        })
+
+        buttonRight.addEventListener('click',function(){
+            document.getElementById('slider').scrollLeft += 180
+        })
+</script> 
 <?php include "footnote.php"; ?>

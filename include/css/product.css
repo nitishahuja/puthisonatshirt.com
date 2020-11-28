@@ -5,8 +5,56 @@ body{
     background: rgb(247, 243, 243) !important;
 }
 
-.product .container img{
-    border-radius: 8px;    
+#featured{
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.thumbnail{
+    display: flex;
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 70px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.thumbnail:hover{
+    opacity: 1;
+}
+.active{
+    opacity: 1;
+}
+
+#slide-wrappper{
+    max-width: 500px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+#slider{
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.fa{
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.fa:hover{
+    opacity: .5;
+    transform: scale(1.2);
 }
 
 .bestseller .container1{

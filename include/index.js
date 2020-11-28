@@ -1,5 +1,30 @@
 $(document).ready(function(){
 
+
+    //image gallery
+    let thumbnails = document.getElementsByClassName('thumbnail');
+    let activeImage = document.getElementsByClassName('active');
+
+    for(var i = 0;i<thumbnails.length;i++){
+         thumbnails[i].addEventListener('mouseover',function(){
+             if(activeImage.length>0){
+                 activeImage[0].classList.remove('active');
+             }
+             this.classList.add('active')
+             document.getElementById('featured').src = this.src;
+         })
+    }
+    let buttonRight = document.getElementById('slideright');
+    let buttonLeft = document.getElementById('slideleft');
+
+    buttonLeft.addEventListener('click',function(){
+        document.getElementById('slider').scrollLeft -= 180;
+    });
+
+    buttonRight.addEventListener('click',function(){
+        document.getElementById('slider').scrollLeft += 180;
+    });
+
     // fanove_owl carousel
     $(".fanlove .owl-carousel").owlCarousel({
         loop:true,
@@ -143,4 +168,6 @@ $(document).ready(function(){
             );
 
         });
+
+        
 });
